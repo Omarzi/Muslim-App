@@ -54,7 +54,6 @@ class _TasbehScreenState extends State<TasbehScreen> {
       allahakbr = -66;
     }
   }
-
   @override
   Widget build(BuildContext context) {
     double wightscreen = MediaQuery.of(context).size.width;
@@ -67,6 +66,8 @@ class _TasbehScreenState extends State<TasbehScreen> {
         child: Column(
           children: [
             InkWell(
+              highlightColor: Colors.transparent,
+              splashColor: Colors.transparent,
               onTap: () {
                 increese();
                 changetitle();

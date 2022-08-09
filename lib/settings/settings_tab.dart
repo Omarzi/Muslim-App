@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:muslim/constants/my_theme.dart';
 import 'package:muslim/providers/app_provider.dart';
 import 'package:muslim/settings/show_language_bottom_sheet.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:muslim/settings/show_theme_bottom_sheet%20copy.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SettingsTab extends StatefulWidget {
   const SettingsTab({Key? key}) : super(key: key);

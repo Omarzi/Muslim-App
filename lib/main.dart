@@ -7,6 +7,7 @@ import 'package:muslim/tabs/ahadeth/hadet_details.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   runApp(
@@ -48,5 +49,12 @@ class MyApp extends StatelessWidget {
       darkTheme: MyThemeData.darkTheme,
       themeMode: provider.themeMode,
     );
+  }
+
+  void getValueFromShared() async {
+    final pref = await SharedPreferences.getInstance();
+
+    // set default language
+    
   }
 }

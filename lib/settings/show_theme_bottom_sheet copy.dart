@@ -65,9 +65,9 @@ class _ShowThemeBottomSheetState extends State<ShowThemeBottomSheet> {
         children: [
           Text(
             text,
-            style: TextStyle(fontSize: 25),
+            style: const TextStyle(fontSize: 25),
           ),
-          Icon(
+          const Icon(
             Icons.check,
             size: 30,
           ),
