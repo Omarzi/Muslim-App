@@ -1,0 +1,16 @@
+{
+    "helloWorld": "Islami",
+    "quran": "Quran",
+    "ahadeth": "Ahadeth",
+    "tasbeh": "Tasbeh",
+    "radio": "Radio",
+    "settings": "Settings",
+    "holyquranradio": "The Holy Quran Radio",
+    "numberoftasbeh": "Number of Tasbeh",
+    "english": "English",
+    "arabic": "Arabic",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark Mode",
+    "light": "Light Mode"
+}
